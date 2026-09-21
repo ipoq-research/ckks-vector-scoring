@@ -1,0 +1,15 @@
+{
+  "commit": "c90e55b3d529f8efa40ed01a20de22405f45fc65",
+  "files": [
+    {
+      "file": "pocketfft_hdronly.h",
+      "url": "https://raw.githubusercontent.com/mreineck/pocketfft/c90e55b3d529f8efa40ed01a20de22405f45fc65/pocketfft_hdronly.h",
+      "sha256": "3e9a05318d8e3b1446bda1c4617e6a103cdd23599ae0a776a92a6e8800e92fdc"
+    },
+    {
+      "file": "pocketfft_LICENSE.md",
+      "url": "https://raw.githubusercontent.com/mreineck/pocketfft/c90e55b3d529f8efa40ed01a20de22405f45fc65/LICENSE.md",
+      "sha256": "a85ca13fdf90160b64a0698215868c13b74d835ad0a4e2ba44713b8c5058a056"
+    }
+  ]
+}

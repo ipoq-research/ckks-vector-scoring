@@ -1,0 +1,78 @@
+{
+  "release": "0.1.0",
+  "prepared_utc_date": "2026-09-21",
+  "status": "local review candidate; unpublished",
+  "source_origins": {
+    "engine": "Existing IPOQ FHE import research source snapshot",
+    "wrapper": "Existing IPOQ private demonstration source; presenter/controller files excluded"
+  },
+  "original_engine_hashes_file": "original_source_hashes.json",
+  "archived_source_hashes_matched": [
+    "benchmark_import.py",
+    "benchmark_packed.py",
+    "build_fresh.py",
+    "build_native.py",
+    "build_phase.py",
+    "client_native.cpp",
+    "client_retained.cpp",
+    "fresh_backend.py",
+    "modadd.c",
+    "native_client.py",
+    "packed_backend.py",
+    "profile_client.py",
+    "profile_phases.py",
+    "raw_backend.py",
+    "reproduce.py",
+    "seal_reproduction.py",
+    "verify_crt52.py",
+    "verify_import.py"
+  ],
+  "archived_cuda_hash_present": false,
+  "release_changes": [
+    "Added SPDX and copyright headers to original source; no native arithmetic changes.",
+    "Added .cu files to engine source-digest collection.",
+    "Adapted the existing challenge wrapper to the new layout and research wording.",
+    "Added standard-library timing/evidence checks and tamper regression tests.",
+    "Added reproducible build/validation commands, explicit licenses, scope and audit documentation."
+  ],
+  "historical_evidence_sha256": {
+    "crt52_gpu.json": "481678cd73ffd9abf025872b14f605cd71890b40197bac46818bb17de83a67c0",
+    "packed_gpu.json": "5bdb6a285fbe71871d3ad69871ac856640a03dccfbb5ffec6953dcd2c1ad8dc6",
+    "import_validation_gpu.json": "ce01ee0bc5e88c24f705afba4f2c70ff959dbf9dca1120fc3231c7282ce21ff9"
+  },
+  "build": {
+    "native_dependencies": "Built from empty extracted/build directories using bundled archives.",
+    "python_environment": "Existing pinned numpy and seal-python installations reused; no fresh wheel installation or wheel-hash lock claimed.",
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "compiler": "c++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+    "cmake": "cmake version 4.1.3",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "gpu_execution": "Not available and not attempted during release audit."
+  },
+  "original_wrapper_hashes": {
+    "run_experiment.py": "3b1cf07defe1fe59b711bef16cbc495122e9a98f239feb5d5990c5ce7cd0747e",
+    "verify_receipt.py": "c687cee9c3d2c6dfc0e4b17a46d55ddefda97cd300051eca3d3e5c6aa64feadc"
+  },
+  "engine_body_identity_after_documented_changes": {
+    "client_native.cpp": true,
+    "client_retained.cpp": true,
+    "fresh_backend.cu": true,
+    "modadd.c": true,
+    "native_client.py": true,
+    "fresh_backend.py": true,
+    "packed_backend.py": true,
+    "raw_backend.py": true,
+    "profile_client.py": true,
+    "seal_reproduction.py": true,
+    "reproduce.py": true,
+    "profile_phases.py": true,
+    "build_native.py": true,
+    "build_phase.py": true,
+    "build_fresh.py": true,
+    "benchmark_packed.py": true,
+    "benchmark_import.py": true,
+    "verify_import.py": true,
+    "verify_crt52.py": true,
+    "requirements.txt": true
+  }
+}

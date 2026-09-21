@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "release": "0.1.0",
+  "review_scope": "Packaging and limited pattern checks, not a security certification.",
+  "selected_files_including_manifest": 68,
+  "first_party_and_notice_text_files_scanned": 57,
+  "python_files_parsed": 20,
+  "local_markdown_links_checked": 30,
+  "sensitive_pattern_findings": [],
+  "dependency_archives": {
+    "seal_matched_source.tar.gz": {
+      "sha256": "d9e16876ba79c6cd5b54dbfab1cd5c65a5fe0385f9eeb16f204aaaa5714058d1",
+      "members": 412,
+      "path_checks_passed": true
+    },
+    "hexl_source.tar.gz": {
+      "sha256": "3c8718b3a29429f4bb12d7eef4c6bf4b737d92d64d1e02106cf0d48618beec7f",
+      "members": 220,
+      "path_checks_passed": true
+    },
+    "cpu_features_source.tar.gz": {
+      "sha256": "5d63ef8131956a1ed4ec7ef932b54d95bb8d5c03f7723ac8f63d372d16b8804f",
+      "members": 75,
+      "path_checks_passed": true
+    }
+  },
+  "pocketfft_digests_verified": true,
+  "compiled_binaries_included": false,
+  "exclusions": [
+    "Expanded dependencies and builds",
+    "Private keys and credentials",
+    "Cloud administration and billing",
+    "Presenter controls and browser state",
+    "Python environments",
+    "Unrelated research"
+  ]
+}

@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite this research release and identify the version and hardware used. See AUTHORS.md for project roles and AI assistance; citation credit does not establish legal ownership or patent inventorship."
+type: software
+repository-code: "https://github.com/ipoq-research/ckks-vector-scoring"
+title: "IPOQ CKKS Vector Scoring Research"
+version: 0.1.0
+date-released: 2026-09-21
+authors:
+  - family-names: "Groset"
+    given-names: "Erik"
+    affiliation: "IPOQ, LLC"
+  - name: "IPOQ, LLC"
+license:
+  - Apache-2.0
+  - CC-BY-4.0
+abstract: >-
+  A specialized CKKS scoring experiment with public queries, a prepared encrypted
+  database, native CPU and optional CUDA evaluation, native client decoding,
+  historical GPU measurements, fresh CPU validation, and offline evidence checks.
+  Developed through an AI-assisted workflow under Erik Groset's project leadership
+  and research direction. No general FHE speed, patent novelty or independent
+  security certification is claimed.

@@ -1,0 +1,26 @@
+IPOQ CKKS Vector Scoring Research, version 0.1.0
+Copyright 2026 IPOQ, LLC
+
+Project leadership and research direction: Erik Groset.
+Research publishing entity and project stewardship: IPOQ, LLC.
+See AUTHORS.md for roles, AI assistance and ownership qualifications.
+These credits do not assign copyright or establish patent inventorship.
+
+Original project code is licensed under the Apache License, Version 2.0.
+Original documentation and benchmark evidence are licensed under Creative
+Commons Attribution 4.0 International. See LICENSING.md for the file map.
+These notices do not change either license's terms.
+
+This AI-assisted research builds on Microsoft SEAL, Intel HEXL,
+Google cpu_features, and PocketFFT. Their source archives, copyright
+notices, and licenses are retained. Microsoft SEAL's full NOTICE is in
+licenses/matched_NOTICE.txt and inside its original source archive.
+Upstream rights and notices also apply to any adapted upstream material.
+No third-party code is relicensed by this release.
+
+Attribution for the original documentation and evidence:
+"IPOQ, LLC, CKKS Vector Scoring Research, v0.1.0 (2026), CC BY 4.0."
+Source: https://github.com/ipoq-research/ckks-vector-scoring
+Include the source URL and indicate changes. Cite the version used.
+
+IPOQ's name does not imply endorsement of downstream products.

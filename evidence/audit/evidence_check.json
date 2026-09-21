@@ -1,0 +1,38 @@
+{
+  "scope": "Offline consistency checks; no authenticated timing or independent reproduction.",
+  "benchmarks": {
+    "evidence/historical/packed_gpu.json": {
+      "trials": 5,
+      "pipeline_us": 260.175,
+      "fastest_plaintext": "plaintext_gpu",
+      "plaintext_us": 26.407500000000002,
+      "overhead": 9.852314683328599,
+      "max_error": 1.1320420156835098e-09,
+      "pipeline_samples": 960
+    },
+    "evidence/audit/packed_cpu.json": {
+      "trials": 5,
+      "pipeline_us": 579.5525,
+      "fastest_plaintext": "plaintext_blas",
+      "plaintext_us": 26.233,
+      "overhead": 22.092497998703923,
+      "max_error": 1.762046508702042e-09,
+      "pipeline_samples": 960
+    }
+  },
+  "receipt_numerical": {
+    "passed": true,
+    "scores_checked": 65536,
+    "maximum_recomputed_error": 1.3519088071234364e-09,
+    "scope": "Checks numerical results and receipt consistency only. Does not independently establish encrypted execution, security, timing, or author identity."
+  },
+  "receipt_timing": {
+    "medians_us": {
+      "encrypted_pipeline": 640.5435,
+      "plaintext_blas": 27.133499999999998,
+      "plaintext_native_cpu": 29.131999999999998
+    },
+    "overhead": 23.607109292940464
+  },
+  "passed": true
+}

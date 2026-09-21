@@ -1,0 +1,57 @@
+{
+  "records": [
+    {
+      "bits": [
+        56,
+        46
+      ],
+      "p0": 72057594037616641,
+      "p1": 70368743669761,
+      "exact_integer_and_conversion_checks": 65536,
+      "boundary_cases": 457
+    },
+    {
+      "bits": [
+        50,
+        50
+      ],
+      "p0": 1125899906629633,
+      "p1": 1125899906826241,
+      "exact_integer_and_conversion_checks": 65536,
+      "boundary_cases": 445
+    },
+    {
+      "bits": [
+        52,
+        51
+      ],
+      "p0": 4503599627124737,
+      "p1": 2251799813554177,
+      "exact_integer_and_conversion_checks": 65536,
+      "boundary_cases": 463
+    },
+    {
+      "bits": [
+        59,
+        44
+      ],
+      "p0": 576460752303210497,
+      "p1": 17592186028033,
+      "exact_integer_and_conversion_checks": 65536,
+      "boundary_cases": 463
+    },
+    {
+      "bits": [
+        40,
+        40
+      ],
+      "p0": 1099510890497,
+      "p1": 1099511480321,
+      "exact_integer_and_conversion_checks": 65536,
+      "boundary_cases": 325
+    }
+  ],
+  "all_passed": true,
+  "invalid_input_rejections": 3,
+  "total_exact_checks": 327680
+}

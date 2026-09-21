@@ -1,0 +1,8 @@
+{
+  "binding_tag": "v4.4.0",
+  "commit": "04d53b99ce745efc26bb4965be609b9894755227",
+  "url": "https://codeload.github.com/microsoft/SEAL/tar.gz/04d53b99ce745efc26bb4965be609b9894755227",
+  "sha256": "d9e16876ba79c6cd5b54dbfab1cd5c65a5fe0385f9eeb16f204aaaa5714058d1",
+  "source_dir": "SEAL-04d53b99ce745efc26bb4965be609b9894755227",
+  "archive": "seal_matched_source.tar.gz"
+}
