@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.so
+*.o
+*.a
+results/
+engine/vendor/accelerated_install/
+engine/vendor/*_build/
+engine/vendor/matched_build/
+engine/vendor/SEAL-*/
+engine/vendor/hexl-*/
+engine/vendor/cpu_features-*/
+*.pem
+*.key
+.env
+.env.*
